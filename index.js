@@ -1,6 +1,5 @@
 const fs = require('fs');
 const Discord = require('discord.js');
-const Client = require('./client/Client');
 const {token, prefix} = require('./config.json');
 const queue = new Map();
 const client = new Discord.Client();
